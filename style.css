@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  margin-top: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  display: flex;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 15px;
+}
+.calendar {
+  display: grid;
+  grid-template-columns: auto;
+  padding-right: 1rem;
+}
+.yearBox {
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  gap: 0.3rem;
+  text-align: center;
+  color: #737373;
+  font-size: 20px;
+  margin-right: 1em;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.yearBox i {
+  color: #737373;
+}
+
+.monday ul,
+.day ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.monday ul {
+  gap: 1em;
+  border-bottom: 1px solid #73737380;
+}
+.monday ul li {
+  color: #868686;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+#weekDays {
+  color: #737373;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#hafta1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.days ul {
+  padding: 0.4rem;
+}
+
+.dayss {
+  display: flex;
+  justify-content: center;
+}
+
+#hafta1:hover {
+  background: #cccccc;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+  color: white;
+}
+
+.may,
+.march {
+  color: #73737382;
+}
+
+.activ {
+  color: white;
+  background-color: #007bff;
+
+  border-radius: 50px;
+  align-items: center;
+}
+.activeMonth {
+  font-weight: bolder;
+  color: black;
+}
+
+.currrent-events {
+  width: 23vw;
+  background-color: #007bff;
+  padding: 2.3rem 1rem;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#dayName-Result {
+  text-transform: uppercase;
+}
+
+#dayNumber-Result {
+  margin-top: 1.3rem;
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#dayName-Result {
+  color: white;
+  text-align: center;
+}
+#current-title {
+  margin-top: 2rem;
+  font-size: 14px;
+  color: white;
+}
+
+.add-event-day {
+  margin-top: 12rem;
+}
+
+.todo {
+  width: 270px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.todoResult {
+  margin-bottom: 9rem;
+  font-size: 14px;
+  color: white;
+}
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+input {
+  width: 90%;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.4em;
+}
+::placeholder {
+  color: white;
+}
+
+#alt {
+  color: white;
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+}
