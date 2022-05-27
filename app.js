@@ -10,7 +10,7 @@ hafta1.forEach((number) => {
   function showNumber() {
     dayNumberResult.innerHTML = this.textContent;
     dayNameResult.innerHTML = this.className;
-    dayNameResult.style.console.log(this.className);
+    
   }
 });
 
